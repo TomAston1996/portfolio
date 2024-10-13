@@ -32,7 +32,7 @@ export default class MyDocument extends Document {
       <Html lang='en-GB'>
         <Head>
           <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-          <meta name="title" content="Vipul Jha - Android Developer" />
+          <meta name="title" content="Tom Aston - Software Engineer" />
           <meta name="description" content="Vipul Jha, also known as lordarcadius is an Android Engineer at Primebook. He has also worked on ROMs, Kernels and Scripts." />
           <meta property="og:type" content="website" />
           <meta property="og:title" content="Vipul Jha - Android Developer" />

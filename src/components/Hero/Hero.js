@@ -12,7 +12,7 @@ const Hero = (props) => (
           Tom Aston
         </SectionTitle>
         <SectionText>
-        Hi, I'm Tom Aston. I'm an Software Engineer from London with experience in ROMs, Kernels, & Scripts. Currently, I am working in Primebook as an Android Engineer. I'm passionate about contributing to open-source projects and helping the developer community on Facebook and Telegram.
+        Hi, I’m Tom! I’m a Software Engineer based in London with 3+ years of professional experience. Currently, I’m working for Siemens Mobility within Central Engineering and Innovation. I have experience in cloud-based web development, mathematical model development (simulations) and cybersecurity.
         </SectionText>
         <Button onClick={(e) => {
           e.preventDefault();

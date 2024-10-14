@@ -10,7 +10,7 @@ const Header = () => (
         href="/"
         style={{ display: 'flex', alignItems: 'center', color: "white" }}>
 
-        <img src="/logo.svg" height={40} width={40} /> <span style={{ marginLeft: 10, marginTop: 7, fontSize: 20 }} >tomaston.dev</span>
+        <img src="/logo.svg" height={35} width={40} /> <span style={{ marginLeft: 10, marginTop: 7, fontSize: 20 }} >tomaston.dev</span>
 
       </Link>
     </Div1>
@@ -31,23 +31,17 @@ const Header = () => (
         </Link>
       </li>
       <li>
-        <a href="https://blog.vipuljha.com">
-          <NavLink>Blog</NavLink>
-        </a>
+        <Link href="#contact" legacyBehavior>
+          <NavLink>Contact</NavLink>
+        </Link>
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href="https://github.com/lordarcadius">
+      <SocialIcons href="https://github.com/TomAston1996">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://www.linkedin.com/in/lordarcadius/">
+      <SocialIcons href="https://www.linkedin.com/in/tomaston96/">
         <AiFillLinkedin size="3rem" />
-      </SocialIcons>
-      <SocialIcons href="https://www.instagram.com/lordarcadius">
-        <AiFillInstagram size="3rem" />
-      </SocialIcons>
-      <SocialIcons href="https://www.twitter.com/lordarcadius">
-        <AiFillTwitterCircle size="3rem" />
       </SocialIcons>
     </Div3>
   </Container>

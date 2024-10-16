@@ -2,6 +2,7 @@ import React from 'react';
 
 import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img } from './ProjectsStyles';
 import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
+import ProjectButton from '../../styles/GlobalComponents/ProjectButton';
 import { projects } from '../../constants/constants';
 
 const Projects = () => (
@@ -31,6 +32,23 @@ const Projects = () => (
               <ExternalLinks href={p.visit}>Live Preview</ExternalLinks>
               <ExternalLinks href={p.source}>Source Code</ExternalLinks>
             </UtilityList> */}
+            {p.downloadButtonLink ? (
+              <>
+              <UtilityList>
+                <ProjectButton onClick={(e) => {
+                  e.preventDefault();
+                  window.location.href = p.downloadButtonLink;
+                }}> Paper </ProjectButton>
+              </UtilityList>
+              </>
+            ): null}
+            {p.company ? (
+              <div style={{ marginBottom: 30 }}>
+                <UtilityList>
+                  <h5>Company: {p.company}</h5>
+                </UtilityList>
+              </div>
+            ): null}
           </BlogCard>
         );
       })}

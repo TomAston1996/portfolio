@@ -12,7 +12,7 @@ const Hero = (props) => (
           Tom Aston
         </SectionTitle>
         <SectionText>
-        Hi, I’m Tom! I’m a Software Engineer based in London with 3+ years of professional experience. Currently, I’m working for Siemens Mobility within Central Engineering and Innovation. I have experience in cloud-based web development, mathematical model development (simulations) and cybersecurity.
+        Hi, I’m Tom! I’m a Software Engineer based in London with 3+ years of professional experience. Currently, I’m working for Siemens Mobility within Central Engineering and Innovation. I have experience in cloud-based web development, mathematical model development (simulations) and cybersecurity. My ideal is working enjoy in both creative and quantative environments!
         </SectionText>
         <Button onClick={(e) => {
           e.preventDefault();

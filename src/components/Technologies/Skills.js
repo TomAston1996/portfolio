@@ -1,40 +1,50 @@
-import { DiAndroid, DiTerminal, DiJava, DiHtml5 } from "react-icons/di";
-import { SiFirebase, SiGit, SiDart, SiCss3, SiMysql, SiAmazonaws } from "react-icons/si";
-import { RiFlutterFill } from "react-icons/ri";
-import { TbBrandKotlin } from "react-icons/tb";
+import {  DiTerminal, DiJava, DiHtml5, DiPython, DiJavascript } from "react-icons/di";
+import { SiGit, SiCss3, SiMysql, SiAmazonaws, SiPostgresql, SiSpringboot, SiReact, SiPowerapps } from "react-icons/si";
+import { TbBrandCpp } from "react-icons/tb";
 
 export const Skills = [
   {
-    slug: "android",
-    Component: DiAndroid,
-    title: "Android",
-    Description: () => <>Android Apps, ROMs, & Kernels</>,
+    slug: "python",
+    Component: DiPython,
+    title: "Python",
+    Description: () => <>Desktop applications, backend, data science, scripting, NLP</>,
   },
   {
-    slug: "flutter",
-    Component: RiFlutterFill,
-    title: "Flutter",
-    Description: () => <>Cross-platform app development</>,
+    slug: "javascript",
+    Component: DiJavascript,
+    title: "JavaScript",
+    Description: () => <>Web app development</>,
   },
   {
-    slug: "kotlin",
-    Component: TbBrandKotlin,
-    title: "Kotlin",
-    Description: () => <>Android apps and Lambda functions</>,
+    slug: "react",
+    Component: SiReact,
+    title: "React",
+    Description: () => <>Frontend web development</>,
   },
   {
-    slug: "dart",
-    Component: SiDart,
-    title: "Dart",
-    Description: () => <>Flutter apps only</>,
+    slug: "aws",
+    Component: SiAmazonaws,
+    title: "AWS",
+    Description: () => <>Lambda Functions, S3, CloudFront, CloudFormation, API Gateway</>,
+  },
+  {
+    slug: "cpp",
+    Component: TbBrandCpp,
+    title: "C++",
+    Description: () => <>Cybersecurity app development</>,
   },
   {
     slug: "java",
     Component: DiJava,
     title: "Java",
-    Description: () => <>Android apps and Lambda functions</>,
+    Description: () => <>Backend web development</>,
   },
-
+  {
+    slug: "springboot",
+    Component: SiSpringboot,
+    title: "SpringBoot",
+    Description: () => <>Building web APIs!</>,
+  },
   {
     slug: "html",
     Component: DiHtml5,
@@ -55,27 +65,27 @@ export const Skills = [
     Description: () => <>Storing client and user data</>,
   },
   {
-    slug: "aws",
-    Component: SiAmazonaws,
-    title: "AWS Lambda",
-    Description: () => <>Lambda functions for creating APIs</>,
+    slug: "postgres",
+    Component: SiPostgresql,
+    title: "PostgresSQL",
+    Description: () => <>Storing client and user data</>,
   },
   {
     slug: "terminal",
     Component: DiTerminal,
-    title: "Bash",
+    title: "Terminal",
     Description: () => <>Ease of life and build scripts</>,
-  },
-  {
-    slug: "firebase",
-    Component: SiFirebase,
-    title: "Firebase",
-    Description: () => <>Authentication, database and analytics</>,
   },
   {
     slug: "git",
     Component: SiGit,
     title: "Git",
     Description: () => <>Code management and open source contributions</>,
+  },
+  {
+    slug: "powerapps",
+    Component: SiPowerapps,
+    title: "MS Power Apps",
+    Description: () => <>Low code platform inc. PowerBI, PowerApps & PowerAutomated</>,
   },
 ];

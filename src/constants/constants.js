@@ -47,15 +47,17 @@ export const projects = [
     source: '#',
     visit: 'https://forum.xda-developers.com/t/app-port-6-0-lenovo-snapit-camera-5-8-53-for-all-devices.3608065/',
     id: 3,
+    
   },
   {
     title: 'SleepMode CCU',
     description: "Energy saving software modification to the Central Control Unit (CCU) of the Class 350 fleets in the UK. The modification saves up to £1M/year in energy costs for HVAC systems.",
     image: '/images/capps.jpg',
     tags: ['Logic Design', 'Harware', 'DOORS', 'Cybersecurity'],
-    source: '#',
-    visit: 'https://forum.xda-developers.com/t/c-apps-v2-unofficial-6-0-x-cyanogen-os-capps-v2-for-cm13-and-cm13-based-roms.3254865/',
+    source: '',
+    visit: '',
     id: 3,
+    company: 'Siemens Mobility UK'
   },
 
 ];

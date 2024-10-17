@@ -1,6 +1,6 @@
 export const projects = [
   {
-    title: 'AMA Cloud',
+    title: 'amaCloud',
     description: "AMA Cloud is Siemens Mobility UKs internal Engineering Asset Management & Assurance platform. The platform included a Technical Issue ticketing system, real-time reporting, project management, resourcing and forecasting.",
     image: '/images/amaCloud.png',
     tags: ['TypeScript', 'AWS', 'Serverless', 'React/Redux'],
@@ -12,7 +12,7 @@ export const projects = [
   {
     title: 'XEMUSimTool',
     description: "XEMUSimTool (X-Electric Multiple Unit Simulation Tool) is novel train simulation tool I developed for Siemens Mobility UK. The tool is currently used for viability studies in +£1bn new fleet bids. I saved the Engineering department £37k+ per year in 3rd party simulation costs developing this.",
-    image: '/images/portfolio.jpg',
+    image: '/images/xemu.png',
     tags: ['Python', 'OOP', 'Tkinter', 'Pandas', 'NumPy'],
     source: '',
     visit: '',
@@ -30,9 +30,9 @@ export const projects = [
     company: 'Siemens Mobility UK'
   },
   {
-    title: 'EV Charging Infrastructure Analysis',
+    title: 'EV Charging Infrastructure Paper',
     description: "Conference Paper written with Siemens Mind Sphere Analytics Centre to analyse and forecast the uptake of EV’s in the UK based on region, government funding and vehicle registration data.",
-    image: '/images/ev.png',
+    image: '/images/ev2.png',
     tags: ['Python', 'Jupyter Notebooks', 'Prophet', 'Plotly'],
     source: '',
     visit: '',
@@ -40,23 +40,24 @@ export const projects = [
     id: 3,
   },
   {
-    title: 'ETA Stocks',
-    description: "Web application for tracking ETF stock price data and ETF profiling using Alpha Vantage free tier API.",
-    image: '/images/snapit.jpg',
-    tags: ['Java', 'Spring Boot', 'React', 'JavaScript'],
+    title: 'etaStocks',
+    description: "ETA Stocks is a web application for tracking stock and ETF (Exchange Traded Fund) price data. The backend interfaces with Alpha Vantages stocks API, personalising the content for users of the app. The goal of the app is to create a personalised space for monitoring and exploring investments.",
+    image: '/images/eta.png',
+    tags: ['Java', 'Spring Boot', 'React', 'JavaScript', 'PostgreSQL'],
     source: '#',
-    visit: 'https://forum.xda-developers.com/t/app-port-6-0-lenovo-snapit-camera-5-8-53-for-all-devices.3608065/',
-    id: 3,
+    visit: '',
+    company: 'Link coming soon!',
+    id: 4,
     
   },
   {
-    title: 'SleepMode CCU',
-    description: "Energy saving software modification to the Central Control Unit (CCU) of the Class 350 fleets in the UK. The modification saves up to £1M/year in energy costs for HVAC systems.",
-    image: '/images/capps.jpg',
+    title: 'CCU SleepMode',
+    description: "Energy saving software modification to the Central Control Unit (CCU) for fleets in the UK. The modification saves up to £1M/year in energy costs through HVAC optimisation.",
+    image: '/images/default.png',
     tags: ['Logic Design', 'Harware', 'DOORS', 'Cybersecurity'],
     source: '',
     visit: '',
-    id: 3,
+    id: 5,
     company: 'Siemens Mobility UK'
   },
 

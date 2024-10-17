@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiFillTwitterCircle } from 'react-icons/ai';
+import { AiFillLinkedin, AiOutlineMail } from 'react-icons/ai';
 import { Link, Section } from '../../styles/GlobalComponents';
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
@@ -12,36 +12,34 @@ const Footer = () => {
       <FooterWrapper>
         <LinkList>
           <LinkColumn>
-            <LinkTitle>Chat</LinkTitle>
-            <LinkItem href="https://t.me/lordarcadius">Telegram</LinkItem>
-          </LinkColumn>
-          <LinkColumn>
             <LinkTitle>Email</LinkTitle>
             <LinkItem href="mailto:tom.aston09@gmail.com">
               tom.aston09@gmail.com
             </LinkItem>
           </LinkColumn>
+          <LinkColumn>
+            <LinkTitle>LinkedIn</LinkTitle>
+            <LinkItem href="https://www.linkedin.com/in/tomaston96/">
+              tomaston96
+            </LinkItem>
+          </LinkColumn>
         </LinkList>
         <SocialIconsContainer>
           <CompanyContainer>
-            <Slogan>Copyright &copy; {year} <Link href="https://www.vipuljha.com">  Tom Aston</Link>. All rights reserved.</Slogan>
+            <Slogan>Copyright &copy; {year} <Link href="#">  Tom Aston</Link>. All rights reserved.</Slogan>
           </CompanyContainer>
           <SocialContainer>
-            <SocialIcons href="https://github.com/lordarcadius">
+            {/* <SocialIcons href="https://github.com/TomAston1996">
               <AiFillGithub size="3rem" />
-            </SocialIcons>
-            <SocialIcons href="https://www.linkedin.com/in/lordarcadius/">
+            </SocialIcons> */}
+            <SocialIcons href="https://www.linkedin.com/in/tomaston96/">
               <AiFillLinkedin size="3rem" />
             </SocialIcons>
-            <SocialIcons href="https://www.instagram.com/lordarcadius">
-              <AiFillInstagram size="3rem" />
-            </SocialIcons>
-            <SocialIcons href="https://www.twitter.com/lordarcadius">
-              <AiFillTwitterCircle size="3rem" />
+            <SocialIcons href="mailto:tom.aston09@gmail.com">
+              <AiOutlineMail size="3rem" />
             </SocialIcons>
           </SocialContainer>
         </SocialIconsContainer>
-
       </FooterWrapper>
     </Section>
   );

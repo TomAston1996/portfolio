@@ -36,7 +36,7 @@ export const Div2 = styled.div`
   }
 `;
 export const Div3 = styled.div`
-  grid-area: 1 / 5 / 2 / 6;
+  grid-area: 1 / 6 / 2 / 6;
   display: flex;
   justify-content: space-around;
   align-items: center;

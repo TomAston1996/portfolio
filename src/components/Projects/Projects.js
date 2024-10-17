@@ -45,7 +45,7 @@ const Projects = () => (
             {p.company ? (
               <div style={{ marginBottom: 30 }}>
                 <UtilityList>
-                  <h5>Company: {p.company}</h5>
+                  <h5>{p.company}</h5>
                 </UtilityList>
               </div>
             ): null}

@@ -51,10 +51,10 @@ export const projects = [
     
   },
   {
-    title: 'CCU SleepMode',
-    description: "Energy saving software modification to the Central Control Unit (CCU) for fleets in the UK. The modification saves up to £1M/year in energy costs through HVAC optimisation.",
+    title: 'srdParser',
+    description: "I wrote a parser to extract Safety Related Defect (SRD) data from .docx, .pdf, and .xlsx files in a shared file system. Post extraction, I used SpaCy's Natural Language Proccessing (NLP) library to categorise safety incidents based on the incident description and title. I created a search function that allowed Engineers to find similar historic issues based on their current issue descriptions. This reduced time taken for engineers to find similar issues from a couple of hours down to a few minutes.",
     image: '/images/default.png',
-    tags: ['Logic Design', 'Harware', 'DOORS', 'Cybersecurity'],
+    tags: ['Python', 'NLP', 'Data Wrangling', 'Pandas'],
     source: '',
     visit: '',
     id: 5,

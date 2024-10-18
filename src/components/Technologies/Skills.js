@@ -25,7 +25,7 @@ export const Skills = [
     slug: "aws",
     Component: SiAmazonaws,
     title: "AWS",
-    Description: () => <>Lambda Functions, S3, CloudFront, CloudFormation, API Gateway</>,
+    Description: () => <>Lambda Functions, S3, DynamoDB, CloudFront, CloudFormation, API Gateway, Route53, Certificates Manager</>,
   },
   {
     slug: "cpp",

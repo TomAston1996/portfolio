@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'amaCloud',
-    description: "AMA Cloud is Siemens Mobility UKs internal Engineering Asset Management & Assurance platform. The platform includes a Technical Issue ticketing system, real-time reporting, project management tooling, resourcing and forecasting. AMA Cloud currently serves 1500+ daily active users and brought monthly running costs down by 10x compared to legacy systems by going serverless.",
+    description: "AMA Cloud is Siemens Mobility UKs internal Engineering Asset Management & Assurance platform. The platform includes a Technical Issue ticketing system, real-time reporting, project management tooling, resourcing and forecasting. AMA Cloud currently serves 1500+ daily active users and brought monthly running costs down by 12x compared to legacy systems by going serverless.",
     image: '/images/amaCloud.png',
     tags: ['TypeScript', 'AWS', 'Serverless', 'React/Redux'],
     source: '',

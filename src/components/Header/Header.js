@@ -40,7 +40,7 @@ const Header = () => (
       {/* <SocialIcons href="https://github.com/TomAston1996">
         <AiFillGithub size="3rem" />
       </SocialIcons> */}
-      <SocialIcons href="https://www.linkedin.com/in/tomaston96/">
+      <SocialIcons href="https://www.linkedin.com/in/tomaston96/" target="_blank">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
       <SocialIcons href="mailto:tom.aston09@gmail.com">

@@ -19,7 +19,7 @@ const Footer = () => {
           </LinkColumn>
           <LinkColumn>
             <LinkTitle>LinkedIn</LinkTitle>
-            <LinkItem href="https://www.linkedin.com/in/tomaston96/">
+            <LinkItem href="https://www.linkedin.com/in/tomaston96/" target="_blank">
               tomaston96
             </LinkItem>
           </LinkColumn>
@@ -32,7 +32,7 @@ const Footer = () => {
             {/* <SocialIcons href="https://github.com/TomAston1996">
               <AiFillGithub size="3rem" />
             </SocialIcons> */}
-            <SocialIcons href="https://www.linkedin.com/in/tomaston96/">
+            <SocialIcons href="https://www.linkedin.com/in/tomaston96/" target="_blank">
               <AiFillLinkedin size="3rem" />
             </SocialIcons>
             <SocialIcons href="mailto:tom.aston09@gmail.com">

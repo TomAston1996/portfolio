@@ -37,7 +37,8 @@ const Projects = () => (
               <UtilityList>
                 <ProjectButton onClick={(e) => {
                   e.preventDefault();
-                  window.location.href = p.downloadButtonLink;
+                  // window.location.href = p.downloadButtonLink;
+                  window.open(p.downloadButtonLink)
                 }}> Paper </ProjectButton>
               </UtilityList>
               </>

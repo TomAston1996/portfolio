@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'amaCloud',
-    description: "AMA Cloud is Siemens Mobility UKs internal Engineering Asset Management & Assurance platform. The platform included a Technical Issue ticketing system, real-time reporting, project management, resourcing and forecasting.",
+    description: "AMA Cloud is Siemens Mobility UKs internal Engineering Asset Management & Assurance platform. The platform includes a Technical Issue ticketing system, real-time reporting, project management tooling, resourcing and forecasting. AMA Cloud currently serves 1500+ daily active users and brought monthly running costs down by 10x compared to legacy systems by going serverless.",
     image: '/images/amaCloud.png',
     tags: ['TypeScript', 'AWS', 'Serverless', 'React/Redux'],
     source: '',
@@ -21,7 +21,7 @@ export const projects = [
   },
   {
     title: 'SCENT',
-    description: "Cybersecuirty tool for monitoring device activity on private onboard networks. A web application prototype was created for the tool to display real-time network activity and stats for the customer.",
+    description: "SCENT is a cybersecuirty tool for monitoring device activity on private onboard ethernet networks. I also developed the web interface for the tool to display real-time network activity, logging and security alerts to the customer.",
     image: '/images/scent.png',
     tags: ['C++', 'TypeScript', 'React', 'AWS', 'Linux'],
     source: '',
@@ -31,7 +31,7 @@ export const projects = [
   },
   {
     title: 'EV Charging Infrastructure Paper',
-    description: "Conference Paper written with Siemens Mind Sphere Analytics Centre to analyse and forecast the uptake of EV’s in the UK based on region, government funding and vehicle registration data.",
+    description: "Conference Paper written with Siemens Mind Sphere Analytics Centre to analyse and forecast the uptake of EV’s in the UK based on region, government funding and vehicle registration data. The paper was accepted by two IEEE conferences.",
     image: '/images/ev2.png',
     tags: ['Python', 'Jupyter Notebooks', 'Prophet', 'Plotly'],
     source: '',

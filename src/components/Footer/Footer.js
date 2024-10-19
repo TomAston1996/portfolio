@@ -35,7 +35,7 @@ const Footer = () => {
             <SocialIcons href="https://www.linkedin.com/in/tomaston96/" target="_blank">
               <AiFillLinkedin size="3rem" />
             </SocialIcons>
-            <SocialIcons href="mailto:tom.aston09@gmail.com">
+            <SocialIcons href="mailto:mail@tomaston.dev">
               <AiOutlineMail size="3rem" />
             </SocialIcons>
           </SocialContainer>

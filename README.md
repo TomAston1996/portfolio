@@ -9,6 +9,8 @@
 
 My personal portfolio website. A portfolio built in React and NextJS. Simple, clean and fast.
 
+![website](./images/website.png)
+
 ## 🧑‍💻 Tech Stack
 
 [![React][React.js]][React-url]

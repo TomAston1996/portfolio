@@ -28,10 +28,11 @@ const Projects = () => (
                 })}
               </TagList>
             </div>
-            {/* <UtilityList>
-              <ExternalLinks href={p.visit}>Live Preview</ExternalLinks>
-              <ExternalLinks href={p.source}>Source Code</ExternalLinks>
-            </UtilityList> */}
+            <UtilityList>
+              {p.source != null ? (
+                <ExternalLinks href={p.source}>Source Code</ExternalLinks>
+              ): null}
+            </UtilityList>
             {p.downloadButtonLink ? (
               <>
               <UtilityList>

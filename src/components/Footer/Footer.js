@@ -1,5 +1,5 @@
 import React from 'react';
-import { AiFillLinkedin, AiOutlineMail } from 'react-icons/ai';
+import { AiFillLinkedin, AiOutlineMail, AiFillGithub } from 'react-icons/ai';
 import { Link, Section } from '../../styles/GlobalComponents';
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
@@ -29,9 +29,9 @@ const Footer = () => {
             <Slogan>Copyright &copy; {year} <Link href="#">  Tom Aston</Link>. All rights reserved.</Slogan>
           </CompanyContainer>
           <SocialContainer>
-            {/* <SocialIcons href="https://github.com/TomAston1996">
+            <SocialIcons href="https://github.com/TomAston1996">
               <AiFillGithub size="3rem" />
-            </SocialIcons> */}
+            </SocialIcons>
             <SocialIcons href="https://www.linkedin.com/in/tomaston96/" target="_blank">
               <AiFillLinkedin size="3rem" />
             </SocialIcons>

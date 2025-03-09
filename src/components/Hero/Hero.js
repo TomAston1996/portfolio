@@ -16,13 +16,13 @@ const Hero = (props) => (
   
         I’ve worked at Siemens Mobility, contributing to cutting-edge engineering projects within their Central Engineering and Innovation teams. I thrive in data-driven environments where I can apply my creativity to solve complex problems and drive innovation💡
         </SectionText>
-        <Button onClick={(e) => {
+        {/* <Button onClick={(e) => {
           e.preventDefault();
           // window.location.href = '/files/resume.pdf';
           window.open('/files/resume.pdf')
         }}
         disabled={true}
-        >My Resume</Button>
+        >My Resume</Button> */}
       </LeftSection>
     </Section>
   </>
